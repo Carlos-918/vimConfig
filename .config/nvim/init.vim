@@ -19,6 +19,7 @@ set relativenumber
 set wrap
 set signcolumn=yes
 set scrolloff=8
+set showmode
 
 set colorcolumn=80
 highlight ColorColum ctermbg=0 guibg=lightgrey
@@ -40,6 +41,13 @@ Plug 'easymotion/vim-easymotion'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
 Plug 'Preservim/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+
+"Plug 'yggdroot/indentline'
+Plug 'mhinz/vim-signify'
+Plug 'sheerun/vim-polyglot'
+"Plug 'junegunn/fzf'
+"Plug 'junegunn/fzf.vim'
 
 
 
